@@ -27,7 +27,7 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 - **Transaction ID**: Identificador único de cada transacción.  
 - **Date**: Fecha en la que se realizó la transacción.  
 - **Product Category**: Categoría general del producto vendido.  
-- **Product Name**: Nombre o modelo específico del producto.  
+- **Product Name**: Nombre específico del producto.  
 - **Units Sold**: Número de unidades vendidas en la transacción.  
 - **Unit Price**: Precio por unidad del producto.  
 - **Total Revenue**: Ingresos totales generados por la transacción (*Units Sold × Unit Price*).  
@@ -91,4 +91,5 @@ Online-Sales-Analysis
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
 
