@@ -57,6 +57,8 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 
 - Productos: Los productos de oficina generan alto volumen de ventas, mientras que los de tecnología generan mayor margen de beneficio.
 
+- Clientes: Se identifican clientes clave con alto volumen de compras recurrentes, lo que permite segmentar estrategias de fidelización.
+  
 --------
 ## 📂 Estructura del proyecto
 
@@ -91,5 +93,6 @@ Online-Sales-Analysis
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
 
 
