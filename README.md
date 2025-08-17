@@ -39,7 +39,7 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 ## Herramientas utilizadas
 
 - **Jupyter Notebook**: Documentación del proceso de análisis. 
-- **Python (Pandas, Matplotlib, Seaborn)**: Limpieza y análisis exploratorio de datos.  
+- **Python (pandas, matplotlib, seaborn)**: Limpieza y análisis exploratorio de datos.  
 - **SQL (SQLite)**: Consultas para segmentación de clientes, regiones y productos.  
 - **Power BI**: Creación de dashboards interactivos para la visualización de resultados. 
 
@@ -82,7 +82,6 @@ Online-Sales-Analysis
 └── README.md 
 ```
 
-
 --------
 
 ## Contacto
@@ -92,3 +91,4 @@ Online-Sales-Analysis
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
