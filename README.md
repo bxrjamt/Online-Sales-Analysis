@@ -18,6 +18,34 @@ A lo largo del análisis se abordarán los siguientes objetivos:
 
 --------
 
+## 📂 Estructura del proyecto
+
+```
+Online_Sales_Analysis
+├── README.md
+├── 📁 data
+│   ├── online_sales.csv           # Dataset original
+│   └── online_sales_cleaned.csv    # Dataset limpio y procesado
+├── 📁 notebooks
+│   ├── 01_limpieza_datos.ipynb          # Limpieza y preprocesamiento de datos
+│   ├── 02_analisis_ventas.ipynb          # Análisis de ventas a lo largo del tiempo
+│   └── 03_analisis_metodos_pago.ipynb     # Análisis de métodos de pago
+├── 📁 query
+│   ├── 04_analisis_productos.sql    # Consultas SQL por categoría y producto
+│   └── online_sales.db               # Base de datos SQLite con los datos
+├── 📁 reports
+│   ├── 📊 online_sales_dashboard.pbix    # Dashboard interactivo en Power BI
+│   └── informe_analisis_ventas.pdf    # Informe final del proyecto
+└── 📁 images       # Imágenes y gráficos usados
+    ├── kpis.png
+    ├── ventas_mensuales.png
+    ├── metodos_pago.png
+    └── top_categorias_productos.png
+
+```
+
+--------
+
 ## Dataset
 
 El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cada uno correspondiente a una transacción individual realizada en una tienda online. Las variables incluidas son las siguientes:
@@ -67,39 +95,6 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 
 --------
 
-## 📂 Estructura del proyecto
-
-```
-Online-Sales-Analysis
-├── 📁 data
-│   ├── online_sales.csv           # Dataset original
-│   └── online_sales_cleaned.csv    # Dataset limpio y procesado
-│
-├── 📁 notebooks
-│   ├── 01_limpieza_datos.ipynb          # Limpieza y preprocesamiento de datos
-│   ├── 02_analisis_ventas.ipynb          # Análisis de ventas a lo largo del tiempo
-│   └── 03_analisis_metodos_pago.ipynb     # Análisis de métodos de pago
-│
-├── 📁 query
-│   ├── 04_analisis_productos.sql    # Consultas SQL por categoría y producto
-│   └── online_sales.db               # Base de datos SQLite con los datos
-│
-├── 📁 reports
-│   ├── 📊 online_sales_dashboard.pbix    # Dashboard interactivo en Power BI
-│   └── informe_analisis_ventas.pdf    # Informe técnico
-|
-├── 📁 images
-|   ├── kpis.png
-|   ├── ventas_mensuales.png
-|   ├── metodos_pago.png
-|   ├── top_categorias.png
-|   └── top_cateogorias_productos.png
-│
-└── README.md 
-```
-
---------
-
 ## Contacto
 
 **Borja Macías Torreblanca**  
@@ -107,6 +102,7 @@ Online-Sales-Analysis
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
 
 
 
