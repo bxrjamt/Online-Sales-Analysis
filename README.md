@@ -34,8 +34,7 @@ Online_Sales_Analysis
 │   ├── online_sales.db               # Base de datos SQLite con los datos
 │   └── analisis_productos.sql       # Consultas SQL por categoría y producto
 ├── 📁 reports
-│   ├── online_sales_dashboard.pbix     # Dashboard interactivo en Power BI
-│   └── informe_analisis_ventas.pdf    # Informe final del proyecto
+│   └──  📊 online_sales_dashboard.pbix     # Dashboard interactivo en Power BI 
 └── 📁 images       # Imágenes y gráficos usados
     ├── kpis.png
     ├── ventas_mensuales.png
@@ -103,6 +102,7 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
 
 
 
