@@ -80,15 +80,15 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 > - El ticket medio por pedido fue de **$335,70** , mientras que por unidad vendida fue de **$155,54**.
 
 ### 📈 Evolución Temporal 
-![Ventas por mes](images/ventas_mensuales.png)
+![Ventas por mes](images/monthly_sales.png)
 > Las ventas muestran una **tendencia decreciente**, con picos en **enero** y, en menor medida, en **marzo y abril**.
 
 ### 💳 Métodos de Pago 
-![Métodos de pago](images/metodos_pago.png)
+![Métodos de pago](images/payment_methods.png)
 > El método que generó más ingresos fue la **tarjeta de crédito (63,51%)**, seguido de **PayPal (26,4%)** y la **tarjeta de débito (10,09%)**.
 
 ### 🏆 Categorías y Productos 
-![Top Productos](images/top_categorias_producto.png)
+![Top Productos](images/top_categories_products.png)
 > Los productos con mayores ventas se encuentran principalmente en las categorías **Electronics** y **Home Appliances**.  
 > - En **Electronics**, destacan **Canon EOS R5 Camera**, **MacBook Pro 16-inch** y **Apple McBook Pro 16-inch**.  
 > - En **Home Appliances**, destaca **LG OLED TV**.
@@ -102,6 +102,7 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
 
 
 
