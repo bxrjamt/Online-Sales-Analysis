@@ -77,7 +77,8 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 
 ### 💰 Ventas y Clientes 
 ![KPIs principales](images/kpis.png)
-> Se alcanzaron $80.567,85 en ventas con 240 clientes únicos. El ticket medio por pedido fue de $335,70 , mientras que por unidad vendida fue de $155,54.
+> - Se alcanzaron $80.567,85 en ventas con 240 clientes únicos.
+> - El ticket medio por pedido fue de $335,70 , mientras que por unidad vendida fue de $155,54.
 
 ### 📈 Evolución Temporal 
 ![Ventas por mes](images/ventas_mensuales.png)
@@ -102,6 +103,7 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
 
 
 
