@@ -18,6 +18,34 @@ A lo largo del análisis se abordarán los siguientes objetivos:
 
 --------
 
+## 📂 Estructura del proyecto
+
+```
+Online_Sales_Analysis
+├── README.md
+├── 📁 data
+│   ├── online_sales.csv           # Dataset original
+│   └── online_sales_cleaned.csv    # Dataset limpio y procesado
+├── 📁 notebooks
+│   ├── 01_limpieza_datos.ipynb          # Limpieza y preprocesamiento de datos
+│   ├── 02_analisis_ventas.ipynb          # Análisis de ventas a lo largo del tiempo
+│   └── 03_analisis_metodos_pago.ipynb     # Análisis de métodos de pago
+├── 📁 query
+│   ├── 04_analisis_productos.sql    # Consultas SQL por categoría y producto
+│   └── online_sales.db               # Base de datos SQLite con los datos
+├── 📁 reports
+│   ├── online_sales_dashboard.pbix    # Dashboard interactivo en Power BI
+│   └── informe_analisis_ventas.pdf    # Informe final del proyecto
+└── 📁 images       # Imágenes y gráficos usados
+    ├── kpis.png
+    ├── ventas_mensuales.png
+    ├── metodos_pago.png
+    └── top_categorias_productos.png
+
+```
+
+--------
+
 ## Dataset
 
 El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cada uno correspondiente a una transacción individual realizada en una tienda online. Las variables incluidas son las siguientes:
@@ -47,40 +75,23 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 
 ## Resultados destacados
 
-- Tendencia temporal: Las ventas muestran picos en los primeros meses del año, seguidos de caídas progresivas en algunas regiones.
+### 💰 Ventas y Clientes 
+![KPIs principales](images/kpis.png)
+> Se alcanzaron $80.567,85 en ventas con 240 clientes únicos. El ticket medio por pedido fue de $335,70 , mientras que por unidad vendida fue de $155,54.
 
-- Regiones: América del Norte es la región con mayores ingresos sostenidos, mientras que Asia presenta picos puntuales pero caídas posteriores.
+### 📈 Evolución Temporal 
+![Ventas por mes](images/ventas_mensuales.png)
+> Las ventas muestran una tendencia decreciente, con picos en enero y, en menor medida, en marzo y abril.
 
-- Categorías: La categoría Tecnología concentra gran parte de las ventas, aunque Muebles presenta márgenes más bajos.
+### 💳 Métodos de Pago 
+![Métodos de pago](images/metodos_pago.png)
+> El método que generó más ingresos fue la tarjeta de crédito (63,51%), seguido de PayPal (26,4%) y la tarjeta de débito (10,09%).
 
-- Métodos de pago: Predomina el pago con tarjeta de crédito, seguido por transferencias bancarias.
-
-- Productos: Los productos de oficina generan alto volumen de ventas, mientras que los de tecnología generan mayor margen de beneficio.
-
---------
-## 📂 Estructura del proyecto
-
-```
-Online-Sales-Analysis
-├── 📁 data
-│   ├── online_sales.csv           # Dataset original
-│   └── online_sales_cleaned.csv    # Dataset limpio y procesado
-│
-├── 📁 notebooks
-│   ├── 01_limpieza_datos.ipynb          # Limpieza y preprocesamiento de datos
-│   ├── 02_analisis_ventas.ipynb          # Análisis de ventas a lo largo del tiempo
-│   └── 03_analisis_metodos_pago.ipynb     # Análisis de métodos de pago
-│
-├── 📁 query
-│   ├── 04_analisis_productos.sql    # Consultas SQL por categoría y producto
-│   └── online_sales.db               # Base de datos SQLite con los datos
-│
-├── 📁 reports
-│   ├── 📊 online_sales_dashboard.pbix    # Dashboard interactivo en Power BI
-│   └── informe_analisis_ventas.pdf    # Informe técnico
-│
-└── README.md 
-```
+### 🏆 Categorías y Productos 
+![Top Productos](images/productos.png)
+> Los productos con mayores ventas se encuentran principalmente en las categorías **Electronics** y **Home Appliances**.  
+> - En **Electronics**, destacan Canon EOS R5 Camera, MacBook Pro 16-inch y Apple McBook Pro 16-inch.  
+> - En **Home Appliances**, destaca LG OLED TV.
 
 --------
 
@@ -91,5 +102,9 @@ Online-Sales-Analysis
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
+
+
+
 
 
