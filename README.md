@@ -27,20 +27,19 @@ Online_Sales_Analysis
 │   ├── online_sales.csv           # Dataset original
 │   └── online_sales_cleaned.csv    # Dataset limpio y procesado
 ├── 📁 notebooks
-│   ├── 01_limpieza_datos.ipynb          # Limpieza y preprocesamiento de datos
-│   ├── 02_analisis_ventas.ipynb          # Análisis de ventas a lo largo del tiempo
-│   └── 03_analisis_metodos_pago.ipynb     # Análisis de métodos de pago
+│   ├── data_cleaning.ipynb            # Limpieza y preprocesamiento de datos
+│   ├── sales_analysis.ipynb            # Análisis de ventas a lo largo del tiempo
+│   └── payment_methods_analysis.ipynb   # Análisis de métodos de pago
 ├── 📁 query
-│   ├── 04_analisis_productos.sql    # Consultas SQL por categoría y producto
-│   └── online_sales.db               # Base de datos SQLite con los datos
+│   ├── online_sales.db                # Base de datos SQLite con los datos
+│   └── product_analysis.sql          # Consultas SQL por categoría y producto
 ├── 📁 reports
-│   ├── online_sales_dashboard.pbix    # Dashboard interactivo en Power BI
-│   └── informe_analisis_ventas.pdf    # Informe final del proyecto
-└── 📁 images       # Imágenes y gráficos usados
+│   └── 📊 online_sales_dashboard.pbix  # Dashboard interactivo en Power BI
+└── 📁 images       # Gráficos e imágenes usados
     ├── kpis.png
-    ├── ventas_mensuales.png
-    ├── metodos_pago.png
-    └── top_categorias_productos.png
+    ├── monthly_sales.png
+    ├── payment_methods.png
+    └── top_categories_products.png
 
 ```
 
@@ -66,10 +65,10 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 
 ## Herramientas utilizadas
 
-- **Jupyter Notebook**: Documentación del proceso de análisis. 
-- **Python (pandas, matplotlib, seaborn)**: Limpieza y análisis exploratorio de datos.  
-- **SQL (SQLite)**: Consultas para segmentación de clientes, regiones y productos.  
-- **Power BI**: Creación de dashboards interactivos para la visualización de resultados. 
+- **Jupyter Notebook**: Para documentar el análisis paso a paso, incluyendo limpieza de datos, visualizaciones y comentarios.  
+- **Python (pandas, matplotlib, seaborn)**: Para procesar los datos, calcular métricas clave y generar gráficos para el análisis exploratorio.  
+- **SQL (SQLite)**: Para realizar consultas que permitan segmentar clientes, productos y regiones, y obtener insights claros de la base de datos.  
+- **Power BI**: Para crear dashboards interactivos que muestren las ventas, KPIs y tendencias a lo largo del tiempo.
 
 --------
 
@@ -77,21 +76,22 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 
 ### 💰 Ventas y Clientes 
 ![KPIs principales](images/kpis.png)
-> Se alcanzaron $80.567,85 en ventas con 240 clientes únicos. El ticket medio por pedido fue de $335,70 , mientras que por unidad vendida fue de $155,54.
+> - Se alcanzaron **$80.567,85** en ventas totales con **240 clientes únicos**.
+> - El ticket medio por pedido fue de **$335,70** , mientras que por unidad vendida fue de **$155,54**.
 
 ### 📈 Evolución Temporal 
 ![Ventas por mes](images/ventas_mensuales.png)
-> Las ventas muestran una tendencia decreciente, con picos en enero y, en menor medida, en marzo y abril.
+> Las ventas muestran una **tendencia decreciente**, con picos en **enero** y, en menor medida, en **marzo y abril**.
 
 ### 💳 Métodos de Pago 
 ![Métodos de pago](images/metodos_pago.png)
-> El método que generó más ingresos fue la tarjeta de crédito (63,51%), seguido de PayPal (26,4%) y la tarjeta de débito (10,09%).
+> El método que generó más ingresos fue la **tarjeta de crédito (63,51%)**, seguido de **PayPal (26,4%)** y la **tarjeta de débito (10,09%)**.
 
 ### 🏆 Categorías y Productos 
-![Top Productos](images/productos.png)
+![Top Productos](images/top_categorias_producto.png)
 > Los productos con mayores ventas se encuentran principalmente en las categorías **Electronics** y **Home Appliances**.  
-> - En **Electronics**, destacan Canon EOS R5 Camera, MacBook Pro 16-inch y Apple McBook Pro 16-inch.  
-> - En **Home Appliances**, destaca LG OLED TV.
+> - En **Electronics**, destacan **Canon EOS R5 Camera**, **MacBook Pro 16-inch** y **Apple McBook Pro 16-inch**.  
+> - En **Home Appliances**, destaca **LG OLED TV**.
 
 --------
 
@@ -102,6 +102,14 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
+
+
+
+
+
+
+
 
 
 
