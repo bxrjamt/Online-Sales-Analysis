@@ -66,10 +66,10 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 
 ## Herramientas utilizadas
 
-- **Jupyter Notebook**: Documentación del proceso de análisis. 
-- **Python (pandas, matplotlib, seaborn)**: Limpieza y análisis exploratorio de datos.  
-- **SQL (SQLite)**: Consultas para segmentación de clientes, regiones y productos.  
-- **Power BI**: Creación de dashboards interactivos para la visualización de resultados. 
+- **Jupyter Notebook**: Para documentar el análisis paso a paso, incluyendo limpieza de datos, visualizaciones y comentarios.  
+- **Python (pandas, matplotlib, seaborn)**: Para procesar los datos, calcular métricas clave y generar gráficos para el análisis exploratorio.  
+- **SQL (SQLite)**: Para realizar consultas que permitan segmentar clientes, productos y regiones, y obtener insights claros de la base de datos.  
+- **Power BI**: Para crear dashboards interactivos que muestren las ventas, KPIs y tendencias a lo largo del tiempo.
 
 --------
 
@@ -103,6 +103,7 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
 
 
 
