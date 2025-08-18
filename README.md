@@ -34,7 +34,7 @@ Online_Sales_Analysis
 │   ├── 04_analisis_productos.sql    # Consultas SQL por categoría y producto
 │   └── online_sales.db               # Base de datos SQLite con los datos
 ├── 📁 reports
-│   ├── 📊 online_sales_dashboard.pbix    # Dashboard interactivo en Power BI
+│   ├── online_sales_dashboard.pbix    # Dashboard interactivo en Power BI
 │   └── informe_analisis_ventas.pdf    # Informe final del proyecto
 └── 📁 images       # Imágenes y gráficos usados
     ├── kpis.png
@@ -75,19 +75,19 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 
 ## Resultados destacados
 
-### Ventas y Clientes 💰
+### 💰 Ventas y Clientes 
 ![KPIs principales](images/kpis.png)
 > Se alcanzaron $80.567,85 en ventas con 240 clientes únicos. El ticket medio por pedido fue de $335,70 , mientras que por unidad vendida fue de $155,54.
 
-### Evolución Temporal 📈
+### 📈 Evolución Temporal 
 ![Ventas por mes](images/ventas_mensuales.png)
 > Las ventas muestran una tendencia decreciente, con picos en enero y, en menor medida, en marzo y abril.
 
-### Métodos de Pago 💳
+### 💳 Métodos de Pago 
 ![Métodos de pago](images/metodos_pago.png)
 > El método que generó más ingresos fue la tarjeta de crédito (63,51%), seguido de PayPal (26,4%) y la tarjeta de débito (10,09%).
 
-### Categorías y Productos 🏆
+### 🏆 Categorías y Productos 
 ![Top Productos](images/productos.png)
 > Los productos con mayores ventas se encuentran principalmente en las categorías **Electronics** y **Home Appliances**.  
 > - En **Electronics**, destacan Canon EOS R5 Camera, MacBook Pro 16-inch y Apple McBook Pro 16-inch.  
@@ -102,6 +102,7 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
 
 
 
