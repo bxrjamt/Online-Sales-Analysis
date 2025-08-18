@@ -27,14 +27,14 @@ Online_Sales_Analysis
 │   ├── online_sales.csv           # Dataset original
 │   └── online_sales_cleaned.csv    # Dataset limpio y procesado
 ├── 📁 notebooks
-│   ├── 01_limpieza_datos.ipynb          # Limpieza y preprocesamiento de datos
-│   ├── 02_analisis_ventas.ipynb          # Análisis de ventas a lo largo del tiempo
-│   └── 03_analisis_metodos_pago.ipynb     # Análisis de métodos de pago
+│   ├── limpieza_datos.ipynb          # Limpieza y preprocesamiento de datos
+│   ├── analisis_ventas.ipynb          # Análisis de ventas a lo largo del tiempo
+│   └── analisis_metodos_pago.ipynb     # Análisis de métodos de pago
 ├── 📁 query
-│   ├── 04_analisis_productos.sql    # Consultas SQL por categoría y producto
-│   └── online_sales.db               # Base de datos SQLite con los datos
+│   ├── online_sales.db               # Base de datos SQLite con los datos
+│   └── analisis_productos.sql       # Consultas SQL por categoría y producto
 ├── 📁 reports
-│   ├── online_sales_dashboard.pbix    # Dashboard interactivo en Power BI
+│   ├── online_sales_dashboard.pbix     # Dashboard interactivo en Power BI
 │   └── informe_analisis_ventas.pdf    # Informe final del proyecto
 └── 📁 images       # Imágenes y gráficos usados
     ├── kpis.png
@@ -103,6 +103,7 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
 
 
 
