@@ -27,19 +27,19 @@ Online_Sales_Analysis
 │   ├── online_sales.csv           # Dataset original
 │   └── online_sales_cleaned.csv    # Dataset limpio y procesado
 ├── 📁 notebooks
-│   ├── limpieza_datos.ipynb          # Limpieza y preprocesamiento de datos
-│   ├── analisis_ventas.ipynb          # Análisis de ventas a lo largo del tiempo
-│   └── analisis_metodos_pago.ipynb     # Análisis de métodos de pago
+│   ├── data_cleaning.ipynb            # Limpieza y preprocesamiento de datos
+│   ├── sales_analysis.ipynb            # Análisis de ventas a lo largo del tiempo
+│   └── payment_methods_analysis.ipynb   # Análisis de métodos de pago
 ├── 📁 query
-│   ├── online_sales.db               # Base de datos SQLite con los datos
-│   └── analisis_productos.sql       # Consultas SQL por categoría y producto
+│   ├── online_sales.db                # Base de datos SQLite con los datos
+│   └── product_analysis.sql          # Consultas SQL por categoría y producto
 ├── 📁 reports
-│   └──  📊 online_sales_dashboard.pbix     # Dashboard interactivo en Power BI 
-└── 📁 images       # Imágenes y gráficos usados
+│   └── 📊 online_sales_dashboard.pbix  # Dashboard interactivo en Power BI
+└── 📁 images       # Gráficos e imágenes usados
     ├── kpis.png
-    ├── ventas_mensuales.png
-    ├── metodos_pago.png
-    └── top_categorias_productos.png
+    ├── monthly_sales.png
+    ├── payment_methods.png
+    └── top_categories_products.png
 
 ```
 
@@ -102,6 +102,7 @@ El dataset, disponible en Kaggle en formato CSV, contiene **240 registros**, cad
 [LinkedIn](https://www.linkedin.com/in/borjamacias) | [GitHub](https://github.com/bxrjamt)
 
  
+
 
 
 
